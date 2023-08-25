@@ -1,74 +1,20 @@
 <template>
-  <div id="home">
-    <h1 class="text-center text-xl mt-4">Thoughts and Posts</h1>
-    <main
-      class="container px-8 pt-24 mx-auto lg:px-4 grid grid-cols-1 md:grid-cols-3 gap-4"
-    >
+  <div class="flex h-full">
+    <div class="grid flex-grow w-1/2 place-items-center bg-base-200">
+      <img
+        src="../assets/images/portrait-brady.png"
+        alt="Brady at Lake Cazenovia"
+        class="p-8 w-3/5"
+      />
+    </div>
+    <div class="grid flex-grow w-1/2 place-items-center">
       <div>
-        <article class="px-8 py-6 rounded-md bg-white shadow">
-          <figure>
-            <img
-              class="object-cover object-center w-full h-40 mb-6 rounded"
-              src="http://via.placeholder.com/250x250"
-              alt=""
-            />
-          </figure>
-          <h2 class="mb-3 text-lg lg:text-2xl">A blog post about my dog</h2>
-          <p class="mb-4 leading-relaxed">
-            Super awesome doggo, with a great smile.
-          </p>
-          <a
-            href="#"
-            class="inline-flex items-center md:mb-2 lg:mb-0 hover:text-blue-400"
-          >
-            Read More
-          </a>
-        </article>
+        <h1 class="text-5xl font-bold">brady volkmann</h1>
+        <p class="py-6">cloud data engineer at IBM</p>
+        <button class="btn btn-primary">
+          <router-link to="/about">about me</router-link>
+        </button>
       </div>
-      <div>
-        <article class="px-8 py-6 rounded-md bg-white shadow">
-          <figure>
-            <img
-              class="object-cover object-center w-full h-40 mb-6 rounded"
-              src="http://via.placeholder.com/250x250"
-              alt=""
-            />
-          </figure>
-          <h2 class="mb-3 text-lg lg:text-2xl">
-            Post about some code we wrote
-          </h2>
-          <p class="mb-4 leading-relaxed">
-            Coding can be hard sometimes. Sometimes it's easy.
-          </p>
-          <a
-            href="#"
-            class="inline-flex items-center md:mb-2 lg:mb-0 hover:text-blue-400"
-          >
-            Read More
-          </a>
-        </article>
-      </div>
-      <div>
-        <article class="px-8 py-6 rounded-md bg-white shadow">
-          <figure>
-            <img
-              class="object-cover object-center w-full h-40 mb-6 rounded"
-              src="http://via.placeholder.com/250x250"
-              alt=""
-            />
-          </figure>
-          <h2 class="mb-3 text-lg lg:text-2xl">Titles are hard to think of.</h2>
-          <p class="mb-4 leading-relaxed">
-            Just like naming variables, naming title are hard.
-          </p>
-          <a
-            href="#"
-            class="inline-flex items-center md:mb-2 lg:mb-0 hover:text-blue-400"
-          >
-            Read More
-          </a>
-        </article>
-      </div>
-    </main>
+    </div>
   </div>
 </template>

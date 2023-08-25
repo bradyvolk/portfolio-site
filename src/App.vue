@@ -1,7 +1,7 @@
 <template>
-  <div id="app">
+  <div id="app" class="h-full flex flex-col">
     <NavBar />
-    <router-view />
+    <router-view style="flex: 1 1 auto" />
   </div>
 </template>
 
