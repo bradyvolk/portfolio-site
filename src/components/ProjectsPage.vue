@@ -7,7 +7,7 @@
       <div class="card bg-base-100 shadow-xl">
         <figure>
           <img
-            src="../assets/images/dig-ag-site.PNG"
+            src="../assets/images/dig-ag-site.png"
             alt="EWB Digital Agriculture Website"
           />
         </figure>
@@ -31,7 +31,7 @@
       <div class="card bg-base-100 shadow-xl">
         <figure>
           <img
-            src="../assets/images/dig-ag-desktop-app.PNG"
+            src="../assets/images/dig-ag-desktop-app.png"
             alt="EWB Digital Agriculture Desktop App"
           />
         </figure>
@@ -52,23 +52,20 @@
       <div class="card bg-base-100 shadow-xl">
         <figure>
           <img
-            src="../assets/images/dig-ag-site.PNG"
-            alt="EWB Digital Agriculture Website"
+            src="../assets/images/portfolio-site.png"
+            alt="Portfolio Website"
           />
         </figure>
         <div class="card-body">
-          <h2 class="card-title">EWB Digital Agriculture Site</h2>
-          <p>
-            EWB Digital Agriculture website built with React.js,
-            StyledComponents, and Firebase
-          </p>
+          <h2 class="card-title">Portfolio Website</h2>
+          <p>This site, right here, built with Vue.js and Tailwind CSS</p>
           <div class="card-actions justify-end">
             <a
-              href="https://ewb-dig-ag.org/"
+              href="https://github.com/bradyvolk/portfolio-site"
               target="_blank"
               class="btn btn-primary"
             >
-              visit site
+              see code
             </a>
           </div>
         </div>
