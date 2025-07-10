@@ -2,7 +2,7 @@
   <div id="home">
     <h1 class="text-center text-xl mt-4 py-8">my projects</h1>
     <main
-      class="container px-8 pt-8 mx-auto lg:px-4 grid grid-cols-1 md:grid-cols-3 gap-4"
+      class="container px-8 py-8 mx-auto lg:px-4 grid grid-cols-1 md:grid-cols-3 gap-4"
     >
       <div class="card bg-base-100 shadow-xl">
         <figure>

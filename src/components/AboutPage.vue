@@ -1,7 +1,7 @@
 <template>
   <div class="p-8">
-    <div class="flex w-full">
-      <div class="grid flex-grow w-1/3 card rounded-box place-items-center">
+    <div class="flex flex-col md:flex-row">
+      <div class="grid flex-grow w-full md:w-1/3 card rounded-box place-items-center pb-8">
         <img
           src="../assets/images/portrait-brady.png"
           alt="Brady at Lake Cazenovia"
@@ -12,7 +12,7 @@
           Cazenovia!
         </p>
       </div>
-      <div class="grid flex-grow w-2/3 card rounded-box place-items-center">
+      <div class="grid flex-grow w-full md:w-2/3 card rounded-box place-items-center">
         <div class="card bg-base-200 shadow-xl">
           <div class="card-body">
             <h2 class="card-title">about me . . .</h2>

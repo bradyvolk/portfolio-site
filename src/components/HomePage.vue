@@ -1,13 +1,13 @@
 <template>
-  <div class="flex h-full">
-    <div class="grid flex-grow w-1/2 place-items-center bg-base-200">
+  <div class="flex flex-col md:flex-row h-full">
+    <div class="grid flex-grow w-full md:w-1/2 place-items-center bg-base-200">
       <img
         src="../assets/images/portrait-brady.png"
         alt="Brady at Lake Cazenovia"
         class="p-8 w-3/5"
       />
     </div>
-    <div class="grid flex-grow w-1/2 place-items-center">
+    <div class="grid flex-grow w-full md:w-1/2 place-items-center">
       <div>
         <h1 class="text-5xl font-bold">brady volkmann</h1>
         <p class="py-6">backend & data engineer at eQual</p>
